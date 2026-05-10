@@ -44,6 +44,9 @@
 # Note: Unity navmesh assets must have "-NavMesh" suffix.
 *-[Nn]av[Mm]esh.asset -unityyaml lfs
 
+# TextMeshPro Fonts
+Assets/TextMesh[[:space:]]Pro/Resources/Fonts[[:space:]]&[[:space:]]Materials/LiberationSans[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
+
 # Image
 *.jpg lfs
 *.jpeg lfs
